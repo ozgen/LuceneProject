@@ -36,7 +36,10 @@ public class SearchFiles {
       System.out.println(usage);
       System.exit(0);
     }
-
+    /**
+     * Eray abi indexfile directory burada 
+     *
+     */
     String index = Configuration.INDEX_DIRECTORY;
     String field = "contents";
     String queries = null;
