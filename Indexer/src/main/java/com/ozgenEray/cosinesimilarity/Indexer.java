@@ -78,7 +78,9 @@ public class Indexer {
 			fieldType.setStoreTermVectors(true);
 			fieldType.setTokenized(true);
 			Field contentField = new Field(fieldName, getAllText(f), fieldType);
+			Field pathField = new Field("path", f.getAbsolutePath().toString(), fieldType);
 			doc.add(contentField);
+			doc.add(pathField);
 			writer.addDocument(doc);
 		}
 		writer.close();
