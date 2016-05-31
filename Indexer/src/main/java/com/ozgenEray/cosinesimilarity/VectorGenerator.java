@@ -8,6 +8,8 @@ import org.apache.lucene.index.Terms;
 import org.apache.lucene.index.TermsEnum;
 import org.apache.lucene.util.BytesRef;
 
+import com.ozgenEray.config.Configuration;
+
 /**
  * Class to generate Document Vectors from Lucene Index
 

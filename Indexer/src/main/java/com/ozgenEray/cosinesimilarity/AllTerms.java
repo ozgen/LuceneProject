@@ -10,6 +10,8 @@ import org.apache.lucene.index.Terms;
 import org.apache.lucene.index.TermsEnum;
 import org.apache.lucene.util.BytesRef;
 
+import com.ozgenEray.config.Configuration;
+
 public class AllTerms {
 	private Map<String, Integer> allTerms;
 	Integer totalNoOfDocumentInIndex;

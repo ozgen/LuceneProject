@@ -23,6 +23,8 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.LockObtainFailedException;
 import org.apache.lucene.util.Version;
 
+import com.ozgenEray.config.Configuration;
+
 /**
  * Class to create Lucene Index from files. Remember this class will only index
  * files inside a folder. If there are multiple folder inside the source folder

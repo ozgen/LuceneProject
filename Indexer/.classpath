@@ -17,12 +17,22 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_11]">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
+			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/Ozgen/Desktop/RECWebService 1.40.33 AM/WebContent/WEB-INF/lib/guava-18.0.jar"/>
 	<classpathentry kind="lib" path="/Users/Ozgen/Desktop/IR Jars/guava.jar"/>
+	<classpathentry kind="lib" path="/Users/Ozgen/Desktop/IR Jars/HtmlParserJarJsoup/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Ozgen/.m2/repository/org/apache/lucene/lucene-queryparser/4.10.2/lucene-queryparser-4.10.2.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.lucene"/>
+			<attribute name="maven.artifactId" value="lucene-queryparser"/>
+			<attribute name="maven.version" value="4.10.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

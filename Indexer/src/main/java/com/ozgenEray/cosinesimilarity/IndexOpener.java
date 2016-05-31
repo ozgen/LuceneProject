@@ -6,6 +6,8 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.store.FSDirectory;
 
+import com.ozgenEray.config.Configuration;
+
 /**
  * Class to Get the Lucene Index Reader
 
