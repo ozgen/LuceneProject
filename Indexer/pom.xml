@@ -56,5 +56,12 @@
 			<artifactId>lucene-test-framework</artifactId>
 			<version>4.10.2</version>
 		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.apache.lucene/lucene-classification -->
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-classification</artifactId>
+			<version>4.10.2</version>
+		</dependency>
+
 	</dependencies>
 </project>

@@ -18,8 +18,7 @@ public class Test {
 		VectorGenerator vectorGenerator = new VectorGenerator();
 		vectorGenerator.GetAllTerms();
 		DocVector[] docVector = vectorGenerator.GetDocumentVectors(); // getting
-																		// document
-																		// vectors
+																	// vectors
 		for (int i = 0; i < docVector.length; i++) {
 			
 			for (int j = 0; j < docVector.length; j++) {
